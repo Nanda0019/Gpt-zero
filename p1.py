@@ -40,8 +40,7 @@ def check_all_messages(message):
     response('See you!', ['bye', 'goodbye'], single_response=True)
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
-    response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
-    response('you look good in red', ['i', 'love', 'red', 'dress'], required_words=['dress', 'red'])
+  
 
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
